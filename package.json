@@ -1,0 +1,13 @@
+{
+  "name": "photoshare-socket-server",
+  "version": "1.0.0",
+  "description": "Socket.IO server for PhotoShare real-time messaging",
+  "main": "websocket/socket_server.js",
+  "scripts": {
+    "start": "node websocket/socket_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+} 
